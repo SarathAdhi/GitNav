@@ -1,0 +1,30 @@
+{
+  "name": "GitNav",
+  "version": "1.0.0",
+  "description": "Customize your GitHub Navbar.",
+  "manifest_version": 3,
+  "author": "Sarath Adhithya",
+  "action": {
+    "default_title": "GitNav",
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "./logo/logo.png",
+      "24": "./logo/logo.png",
+      "32": "./logo/logo.png",
+      "48": "./logo/logo.png"
+    }
+  },
+  "icons": {
+    "48": "./logo/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["./content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["https://*/"]
+}
