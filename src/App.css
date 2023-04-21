@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply !text-3xl !font-semibold;
+  }
+  h2 {
+    @apply !text-2xl !font-semibold;
+  }
+  h3 {
+    @apply !text-xl !font-semibold;
+  }
+
+  p {
+    @apply !text-lg;
+  }
+}
+
+button {
+  @apply text-base font-semibold disabled:cursor-not-allowed disabled:active:scale-100 disabled:bg-gray-100 px-4 py-2 rounded-md active:scale-95 duration-200 transition-all;
+}
+
+input {
+  @apply w-full text-lg px-2 py-1 rounded-md focus:outline-none border border-gray-400;
+}
+
+tr,
+td {
+  @apply p-1 text-left !text-[16px];
+}
