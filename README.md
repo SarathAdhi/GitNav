@@ -1,5 +1,8 @@
 # GitNav
 
+<img width="693" alt="image" src="https://github.com/SarathAdhi/GitNav/assets/91727830/2401f6cc-7b21-4df7-b089-1c3c4f38eb00">
+
+
 ### [Downloading GitNav from Github using DownGit](https://app.tango.us/app/workflow/d7c74718-4c9f-484b-97b4-244837cf44ca?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
 
 ***
