@@ -1,6 +1,6 @@
 # GitNav
 
-# [Downloading GitNav from Github using DownGit](https://app.tango.us/app/workflow/d7c74718-4c9f-484b-97b4-244837cf44ca?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
+### [Downloading GitNav from Github using DownGit](https://app.tango.us/app/workflow/d7c74718-4c9f-484b-97b4-244837cf44ca?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
 
 ***
 
